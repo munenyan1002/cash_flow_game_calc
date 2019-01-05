@@ -54,6 +54,10 @@ body {
   background-color: #f5f8fa;
 }
 
+.main table{
+  margin-left: auto;
+  margin-right: auto
+}
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -149,6 +153,18 @@ header {
   font-size: 24px;
 }
 
+.top-main input#submit_button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  // 背景色を黒に指定
+  background-color: #8F8F8F;
+  // 文字色を白に指定
+  color: #fff;
+  // submitボタンのを枠を非表示にする
+  border-style: none;
+}
+
+
 /* about ================================ */
 .about-main {
   padding: 180px 8% 0;
@@ -170,6 +186,23 @@ header {
 
 .about-img {
   width: 84%;
+}
+
+.about-main strong {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.about-main input#submit_button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  // 背景色を黒に指定
+  background-color: #8F8F8F;
+  // 文字色を白に指定
+  color: #fff;
+  // submitボタンのを枠を非表示にする
+  border-style: none;
 }
 
 /* フォーム================================ */
